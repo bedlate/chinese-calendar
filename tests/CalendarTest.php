@@ -7,7 +7,7 @@
 
 namespace Overtrue\ChineseCalendar\Tests;
 
-use Overtrue\ChineseCalendar\Calendar;
+use bedlate\ChineseCalendar\Calendar;
 use PHPUnit\Framework\TestCase;
 
 class CalendarTest extends TestCase

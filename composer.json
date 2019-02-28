@@ -1,5 +1,5 @@
 {
-    "name": "overtrue/chinese-calendar",
+    "name": "bedlate/chinese-calendar",
     "description": "中国农历转换与查询工具",
     "keywords": ["chinese", "calendar", "lunar", "solar", "solar2lunar", "lunar2solar"],
     "type": "library",
@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Overtrue\\ChineseCalendar\\": "src"
+            "bedlate\\ChineseCalendar\\": "src"
         }
     },
     "license": "MIT",

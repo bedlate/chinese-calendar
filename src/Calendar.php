@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Overtrue\ChineseCalendar;
+namespace bedlate\ChineseCalendar;
 
 use DateTime;
 use DateTimeZone;
