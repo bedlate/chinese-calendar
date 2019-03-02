@@ -227,7 +227,7 @@ class Calendar
             'gregorian_day' => sprintf('%02d', $day),
             'gregorian_hour' => !is_numeric($hour) || $hour < 0 || $hour > 23 ? null : sprintf('%02d', $hour),
             'week_no' => $week, // 在周日时将会传回 0
-            'week_name' => '星期'.$this->weekdayAlias[$week],
+            'week_name' => $this->weekdayAlias[$week],
             'is_today' => 0 === $this->makeDate('now')->diff($date)->days,
             'constellation' => $this->toConstellation($month, $day),
         ]);
